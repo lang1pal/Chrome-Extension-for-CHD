@@ -1,1 +1,1 @@
-document.body.innerHTML = document.body.innerHTML.replace(new RegExp(":COOKIE:uid=;", "g"), "&");
+document.body.innerHTML = document.body.innerHTML.replace(new RegExp("(:COOKIE:uid=)(\\d+);", "g"), "&");
